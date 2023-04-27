@@ -5,7 +5,7 @@ import json
 
 st.set_page_config(page_title="Ask SimonGPT")
 st.title("Ask SimonGPT Anything")
-st.sidebar.markdown("# Akk anything about Wardley Mapping")
+st.sidebar.markdown("# Ask anything about Wardley Mapping")
 st.sidebar.markdown("Developed by Mark Craddock](https://twitter.com/mcraddock)", unsafe_allow_html=True)
 st.sidebar.markdown("Current Version: 0.0.4")
 st.sidebar.markdown("Simon Wardley Content")
