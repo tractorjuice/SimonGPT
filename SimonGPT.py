@@ -47,7 +47,8 @@ if submit_button:
                 st.write(f"Source {i+1}:")
                 if 'source_urls' in response_json and len(response_json['source_urls']) > i:
                     video_id = "https://www.youtube.com/watch?feature=share&v=" + response_json['source_urls'][i]
-                    st_player(video_id, height=150)
+                    key = f"video_{i}"
+                    st_player(video_id, height=150, key=key)
                     st.write("")
                 
 if st.button("Clear"):
