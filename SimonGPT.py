@@ -7,7 +7,7 @@ st.set_page_config(page_title="Ask SimonGPT")
 st.title("Ask SimonGPT Anything")
 st.sidebar.markdown("# Using AI, ask anything about Wardley Mapping")
 st.sidebar.markdown("Developed by Mark Craddock](https://twitter.com/mcraddock)", unsafe_allow_html=True)
-st.sidebar.markdown("Current Version: 0.0.4")
+st.sidebar.markdown("Current Version: 0.0.9")
 st.sidebar.markdown("Simon Wardley Content")
 st.sidebar.markdown("1M+ Vectors")
 
