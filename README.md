@@ -1,4 +1,4 @@
-# WardleyGPT
+# SimonGPT
 # Wardley Maps with AI
 Wardley Mapping using AI\
 \
