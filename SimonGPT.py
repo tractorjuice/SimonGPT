@@ -17,7 +17,7 @@ if "pkg" not in st.session_state:
     # Load the package instance stub.
     st.session_state.pkg = Steamship.use(
         "simonbok",
-        instance_handle="simonbok-210",
+        instance_handle="simonbok-67a",
         api_key = st.secrets["STEAMSHIP_API_KEY"]
     )
 
