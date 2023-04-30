@@ -3,6 +3,12 @@ from steamship import Steamship
 from streamlit_player import st_player
 import json
 
+html_temp = """
+                <div style="background-color:{};padding:1px">
+                
+                </div>
+                """
+
 st.set_page_config(page_title="Ask SimonGPT")
 st.title("Ask SimonGPT Anything")
 st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
