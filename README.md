@@ -6,4 +6,4 @@ Wardley Mapping using AI
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wm2json.streamlit.app/)
 
-Learn how to create an OpenAI question and answer app using Wardley Mapping videos.\
+Learn how to create an OpenAI question and answer app using Wardley Mapping videos
