@@ -3,19 +3,13 @@ from steamship import Steamship
 from streamlit_player import st_player
 import json
 
-html_temp = """
-                <div style="background-color:{};padding:1px">
-                
-                </div>
-                """
-
 st.set_page_config(page_title="Ask SimonGPT")
 st.title("Ask SimonGPT Anything")
 st.sidebar.markdown("# Using AI, ask anything about Wardley Mapping")
-st.sidebar.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
+st.divider()
 st.sidebar.markdown("Developed by Mark Craddock](https://twitter.com/mcraddock)", unsafe_allow_html=True)
 st.sidebar.markdown("Current Version: 0.1.4")
-st.sidebar.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
+st.divider()
 st.sidebar.markdown("Using GPT-4 API")
 st.sidebar.markdown("Simon Wardley Content")
 st.sidebar.markdown("1M+ Vectors")
